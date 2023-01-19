@@ -1,0 +1,53 @@
+@media screen and (max-width: 1080px) {
+    .container {
+      width: 1080px;
+    }
+    .logo {
+      margin: 0 -15px;
+    }
+    .menu__desktop {
+      display: none;
+    }
+    .menu__mobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .menu {
+      display: none;
+    }
+    
+    .header__title {
+      padding-top: 100px;
+      margin-bottom: 30px;
+    }
+    .header__button {
+      margin: 0 auto 100px;
+    }
+    .about {
+        background-color: #1d1d1d;
+        height: 1129px;
+        width: 100%;
+        background: url(/buildings__black.png) center 101% repeat-x,
+          url(/buildings__white.png) center 101% repeat-x, #1d1d1d;
+        /* background-position-y: 995px; */
+        /* background-size: contain, contain; */
+      }
+    .about__item {
+      width: 340px;
+    }
+    .team {
+      height: auto;
+      padding-bottom: 80px;
+    }
+    .team__inner {
+      flex-wrap: wrap;
+      padding-top: 100px;
+    }
+    .team__item {
+      width: 340px;
+    }
+    .provide__inner {
+      padding-top: 75px;
+    }
+  }

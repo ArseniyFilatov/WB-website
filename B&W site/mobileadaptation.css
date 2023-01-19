@@ -1,0 +1,44 @@
+@media screen and (max-width: 375px) {
+  .container {
+    width: 375px;
+  }
+  .logo {
+    margin: 0 -15px;
+  }
+  .menu__desktop {
+    display: none;
+  }
+  .menu__mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu {
+    display: none;
+  }
+  
+  .header__title {
+    padding-top: 100px;
+    margin-bottom: 30px;
+  }
+  .header__button {
+    margin: 0 auto 100px;
+  }
+  .about__item {
+    width: 340px;
+  }
+  .team {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .team__inner {
+    flex-wrap: wrap;
+    padding-top: 100px;
+  }
+  .team__item {
+    width: 340px;
+  }
+  .provide__inner {
+    padding-top: 75px;
+  }
+}
